@@ -25,13 +25,15 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed text-white top-0 left-0 w-full p-4 transition-all duration-300 ${
-        scrolling ? "bg-gray-800" : "bg-red-600"
+        scrolling ? "bg-[C6C6DA]" : "bg-transparent"
       }`}
     >
-      <div className="w-full  flex justify-between md:justify-between bg-green-300 items-center">
+      <div className="w-full  flex justify-between md:justify-around items-center">
         <div>
           <div>
-            <h2 className="font-montez text-xl md:text-2xl lg:text-3xl mt-0 font-bold">KelvinR.</h2>
+            <h2 className="font-montez text-xl md:text-2xl lg:text-3xl mt-0 font-bold">
+              Creaftech.
+            </h2>
             <p className="text-xs font-montserrat mt-6 mb-[-10px] font-bold">
               Brand Web Designer in Lagos
             </p>
@@ -39,20 +41,20 @@ const Navbar = () => {
         </div>
 
         {/* navigation menu */}
-        <div className="hidden sm:hidden lg:block flex justify-between w-2/4">
-          <button className="p-2 decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
+        <div className="hidden  sm:hidden lg:block flex justify-between w-2/4">
+          <button className="p-2 tracking-widest decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
             HOME
           </button>
-          <button className="p-2 decoration-[#9a89fe] hover:underline underline-offset-[17px]">
+          <button className="p-2 tracking-widest decoration-[#9a89fe] hover:underline underline-offset-[17px]">
             ABOUT
           </button>
-          <button className="p-2 decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
+          <button className="p-2 tracking-widest decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
             PORTFOLIO
           </button>
-          <button className="p-2 decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
+          <button className="p-2 tracking-widest decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
             UX & WEB WRITING
           </button>
-          <button className="p-2 decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
+          <button className="p-2 tracking-widest decoration-[#9a89fe] h-12 hover:underline underline-offset-[17px]">
             CONTACT
           </button>
         </div>
@@ -76,7 +78,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="flex justify-between items-center lg:hidden w-1/5 bg-black">
+        <div className="flex justify-between items-center lg:hidden w-1/5">
           {/* Contacts */}
 
           <div className="flex">
