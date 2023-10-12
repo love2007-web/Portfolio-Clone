@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Next from '../components/Next'
 import Middle from '../components/Middle'
+import Body from '../components/Body'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Middle/>
       </div>
       <Next />
+      <Body/>
     </>
   );
 }

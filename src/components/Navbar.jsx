@@ -24,8 +24,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed text-white top-0 left-0 w-full p-4 transition-all duration-300 ${
-        scrolling ? "bg-[C6C6DA]" : "bg-transparent"
+      className={`fixed text-white top-0 left-0 w-full p-4 z-50 transition-all duration-300 ${
+        scrolling ? "bg-[#00000066]" : "bg-transparent"
       }`}
     >
       <div className="w-full  flex justify-between md:justify-around items-center">
