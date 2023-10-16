@@ -1,8 +1,19 @@
 import React from 'react'
+import Container from './Container';
 
 const Body = () => {
   return (
     <>
+      <Container className="grid lg:grid-cols-2 mt-16">
+        <div>
+          <img
+            src="https://images.pexels.com/photos/874242/pexels-photo-874242.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            className='w-full'
+          />
+        </div>
+        <div></div>
+      </Container>
       {/* <div className="font-montserrat">
         <div className="lg:mt-20 lg:flex lg:px-10">
           <div className="lg:w-1/2 flex justify-center mt-5">
