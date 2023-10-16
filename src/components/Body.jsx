@@ -4,15 +4,30 @@ import Container from './Container';
 const Body = () => {
   return (
     <>
-      <Container className="grid lg:grid-cols-2 mt-16">
+      <Container className="grid lg:grid-cols-2 mt-16 font-montserrat">
         <div>
           <img
             src="https://images.pexels.com/photos/874242/pexels-photo-874242.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
-            className='w-full'
+            className="w-full"
           />
         </div>
-        <div></div>
+        <div>
+          <h1 className="text-[20px] font-black">
+            If you are not sure about that, think for moment;
+          </h1>
+          <p className="mt-5">
+            Do you want to gain market share with your web design in a market
+            which looks like a sea of sameness, where customers see your website
+            and your competitor's as interchangeable and don't have any
+            particularly warm feelings towards any of you… What makes your
+            business stand out from the competition?{" "}
+            <span className="font-black">
+              Okay! People say that social media accounts are starting to
+              replace the need for a website.. but they're WRONG!
+            </span>
+          </p>
+        </div>
       </Container>
       {/* <div className="font-montserrat">
         <div className="lg:mt-20 lg:flex lg:px-10">
