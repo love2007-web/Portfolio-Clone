@@ -3,7 +3,7 @@ import React from 'react'
 const Body = () => {
   return (
     <>
-      <div className="font-montserrat">
+      {/* <div className="font-montserrat">
         <div className="lg:mt-20 lg:flex lg:px-10">
           <div className="lg:w-1/2 flex justify-center mt-5">
             <div className="lg:w-[400px] shadow-2xl ">
@@ -90,7 +90,7 @@ const Body = () => {
             & your Web design needs….
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
