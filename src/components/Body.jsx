@@ -5,7 +5,7 @@ const Body = () => {
   return (
     <>
       <Container className="grid lg:grid-cols-2 mt-16 font-montserrat">
-        <div>
+        <div className='shadow-2xl'>
           <img
             src="https://images.pexels.com/photos/874242/pexels-photo-874242.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""

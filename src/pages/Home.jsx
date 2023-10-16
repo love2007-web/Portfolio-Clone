@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Next from '../components/Next'
 import Middle from '../components/Middle'
 import Body from '../components/Body'
+import Socials from '../components/Socials'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       </div>
       <Next />
       <Body/>
+      <Socials/>
     </>
   );
 }
