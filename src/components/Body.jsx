@@ -12,7 +12,7 @@ const Body = () => {
             className="w-full"
           />
         </div>
-        <div>
+        <div className='mt-4'>
           <h1 className="text-[20px] font-black">
             If you are not sure about that, think for moment;
           </h1>
