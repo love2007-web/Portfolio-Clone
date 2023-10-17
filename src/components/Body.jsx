@@ -12,11 +12,11 @@ const Body = () => {
             className="w-full"
           />
         </div>
-        <div className='mt-4'>
-          <h1 className="text-[20px] font-black">
+        <div className='mt-9 lg:p-10'>
+          <h1 className="text-[20px] font-black lg:text-[35px]">
             If you are not sure about that, think for moment;
           </h1>
-          <p className="mt-5">
+          <p className="mt-5 lg:text-[20px]">
             Do you want to gain market share with your web design in a market
             which looks like a sea of sameness, where customers see your website
             and your competitor's as interchangeable and don't have any
