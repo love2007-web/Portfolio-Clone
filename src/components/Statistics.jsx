@@ -4,7 +4,7 @@ import Container from './Container'
 const Statistics = () => {
   return (
     <>
-      <Container className="grid lg:grid-cols-3 bg-[#0C1224] text-white font-montserrat">
+      <Container className="grid lg:grid-cols-3 bg-[#0C1224] shadow-2xl text-white font-montserrat">
         <div className="text-center mt-20 mb-28">
           <h1 className="text-4xl font-bold lg:text-6xl">Statistics</h1>
           <p className="my-4 lg:text-[20px]">What i've done so far</p>
