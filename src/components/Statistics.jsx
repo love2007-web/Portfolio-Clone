@@ -12,20 +12,20 @@ const Statistics = () => {
         <div className="grid mt-5 lg:col-span-2 lg:grid-cols-3 lg:gap-[30px] mb-20 transition-all duration-[200ms]">
           <div className="border-4 border-[#9a89fe] text-center lg:mt-20 hover:border-[#1A1A78]">
             <h1 className="font-black text-[24px] mt-2 lg:mt-5 lg:text-[35px]">
-              0
+              200
             </h1>
             <p className="mb-3 mt-4">Different projects done since 2019</p>
           </div>
-          <div className="border-4 lg:w-60 border-[#9a89fe] text-center lg:ml-8 lg:mt-12 hover:border-[#1A1A78]">
+          <div className="border-4 lg:w-60 border-[#9a89fe] text-center lg:ml-4 lg:mt-12 hover:border-[#1A1A78]">
             <h1 className="font-black text-[24px] mt-2 lg:mt-5 lg:text-[35px]">
-              0
+              10
             </h1>
             <p className="mt-4">Years</p>
             <p className="mb-3">Web design Experience</p>
           </div>
           <div className="border-4 border-[#9a89fe] text-center lg:mt-20 hover:border-[#1A1A78]">
             <h1 className="font-black text-[24px] mt-2 lg:mt-5 lg:text-[35px]">
-              0
+              5
             </h1>
             <p className="mb-3 mt-4">Years tech support</p>
           </div>
