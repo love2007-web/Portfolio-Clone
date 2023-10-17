@@ -9,7 +9,7 @@ const Reviews = () => {
           <h1 className="font-black text-white">Reviews</h1>
         </div>
         <div className="grid lg:gap-[30px] lg:grid-cols-5">
-          <div className="col-span-2 mt-5">
+          <div className="lg:col-span-2 mt-5">
             <div className="bg-white w-full">
               <div className="p-4 border-2">
                 <h1 className="font-black">-- Kaite,</h1>
@@ -22,7 +22,7 @@ const Reviews = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-3 mt-5">
+          <div className="lg:col-span-3 mt-5">
             <div className="bg-white w-full">
               <div className="p-4 border-2">
                 <h1 className="font-black">-- Harmony,</h1>
@@ -39,7 +39,7 @@ const Reviews = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-4 mt-5">
+          <div className="lg:col-span-4 mt-5">
             <div className="bg-white w-full">
               <div className="p-4 border-2">
                 <h1 className="font-black">-- Aaron,</h1>
@@ -56,7 +56,7 @@ const Reviews = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 mt-5">
+          <div className="lg:col-span-1 mt-5">
             <div className="bg-white w-full">
               <div className="p-4 border-2">
                 <h1 className="font-black">-- Jason,</h1>
