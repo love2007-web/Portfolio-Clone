@@ -5,14 +5,14 @@ const Body = () => {
   return (
     <>
       <Container className="grid lg:grid-cols-2 mt-16 font-montserrat">
-        <div className='shadow-2xl'>
+        <div className="">
           <img
             src="https://images.pexels.com/photos/874242/pexels-photo-874242.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
-            className="w-full"
+            className="w-full shadow-2xl"
           />
         </div>
-        <div className='mt-9 lg:p-10'>
+        <div className="mt-9 lg:p-10">
           <h1 className="text-[20px] font-black lg:text-[35px]">
             If you are not sure about that, think for moment;
           </h1>
